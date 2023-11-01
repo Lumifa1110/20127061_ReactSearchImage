@@ -61,7 +61,7 @@ const Gallery = ({inputText, onInputTextChange, isSearch, onIsSearchChange}) => 
     };
   }, [pages, isSearch]);
 
-  return (
+  return (  
     <>
       <div id="gallery" className="gallery">
         {images.map((image) => (
